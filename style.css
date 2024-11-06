@@ -26,13 +26,13 @@ a {
     padding: 32px 0 96px;
 }
 
-.header {
+.hero .header {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 72px;
 }
 
-.info {
+.hero .info {
     display: flex;
     justify-content: space-evenly;
 }
@@ -41,11 +41,11 @@ a {
     width: 400px;
 }
 
-.links {
+.hero .links {
     width: 400px;
 }
 
-.logo-text {
+.hero .logo-text {
     font-size: 24px;
     width: 600px;
 }
@@ -65,7 +65,6 @@ a {
     border: none;
     color: #f9faf8;
     padding: 8px 32px;
-    text-align: center;
     text-decoration: none;
     font-size: 16px;
     margin: 4px 2px;
@@ -78,8 +77,7 @@ a {
 
 .content {
     text-align: center;
-    padding-top: 32px;
-    padding-bottom: 64px;
+    margin: 32px 0 64px;
 }
 
 .content .title {
@@ -124,4 +122,43 @@ a {
     display: flex;
     flex-direction: column;
     width: 850px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 96px auto;
+    border-radius: 8px;
+    padding: 32px 96px;
+    gap: 96px;
+    width: 900px;
+}
+
+.call-to-action .title {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 0;
+    font-weight: 900;
+}
+
+.call-to-action .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action .description {
+    color: #f9faf8;
+    margin: 0;
+}
+
+.call-to-action button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: #f9faf8;
+    padding: 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
 }
