@@ -100,3 +100,28 @@ a {
     gap: 32px;
 }
 
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px;
+}
+
+.quote .text {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote .author {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+}
