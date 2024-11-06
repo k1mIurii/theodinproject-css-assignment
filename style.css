@@ -162,3 +162,16 @@ a {
     font-size: 16px;
     border-radius: 12px;
 }
+
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.footer .text {
+    color: #E5E7EB;
+}
